@@ -1,184 +1,171 @@
 body {
-    font-family: 'fanwood-webfont';
     margin: 0;
-    color: #222222;
+    padding: 0;   
+    background: url('../img/layout/body-bg.jpg') scroll repeat top left;
+    font-family: 'Open Sans', sans-serif;
 }
-.container_24 header.grid_6 {
-    background: transparent url('../img/layout/logo-bg.png') scroll top left no-repeat;
-    height: 400px;
-    padding: 16px 0 0 0;
-    margin: 65px 30px 0 30px;
-    position: fixed;
+.hidden {
+    display: none;
 }
-.container_24 header.grid_6 h1 {
-    font-family: 'fanwood-webfont';
-    font-weight: normal;
-    font-size: 50px;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 55px;
-    margin: 0;
+ol {
+    display: none;
 }
-.container_24 header.grid_6 ul.nav {
-    font-family: 'fanwood_italic-webfont';
-    font-size: 25px;
-    margin: 50px 0 0 0;
-    padding: 0;
+ul {
     list-style: none;
 }
-.container_24 header.grid_6 ul.nav li a {
-    color: #222222;
-    text-decoration: none;
-}
-.container_24 section {
-    padding-bottom: 50px;
-    margin: 65px 30px 0 0;
-    width: 606px !important;
-    float: right;
-}
-.container_24 section.portfolio .grid_5 {
-    background: transparent url('../img/layout/works-bg.png') scroll top left no-repeat;
-    height: 259px;
-    width: 192px;
-    padding-bottom: 50px;
-}
-.container_24 section.portfolio .grid_5 .img-holder img {
-    padding: 7px 7px 0 7px;
-}
-.container_24 section.portfolio .grid_5 .text-holder h6 {
-    font-family: 'fanwood_italic-webfont';
-    font-size: 16px;
-    font-weight: normal;
+body .loader.loading {
+    z-index: 1000;
+    background: url('../img/layout/body-bg.jpg') scroll repeat top left;
+    display: block;
+    width: 100%;
+    height: 100% !important;
+    position: fixed;
     margin: 0;
-    text-align: center;
+    padding: 0;
+    top: 0;
 }
-.container_24 section.portfolio .grid_5 .text-holder .funcion {
-    font-family: 'fanwood-webfont';
-    font-size: 16px;
-    font-weight: normal;
-    margin: 0;
-    text-align: center;
-}
-.container_24 section.portfolio .grid_5 .text-holder .tecnologias {
-    font-family: 'fanwood-webfont';
-    font-size: 14px;
-    font-weight: normal;
-    margin: 0;
-    text-align: center;
-}
-.container_24 .white.grid_24 {
-    height: 500px;
-}
-.container_24 section.cv .grid_4 {
-    background: transparent url('../img/layout/cv-download.png') scroll top left no-repeat;
-    height: 38px;
-    width: 155px;
-    float: left;
-    margin: 164px 0 0 0;
-}
-.container_24 section.cv .grid_4:hover {
-    background-position: 0 -38px;
-}
-.container_24 section.cv .grid_5 {
-    float: right;
-}
-.container_24 section.cv article.grid_15 {
-    margin-top: 50px;
-}
-.container_24 section.cv article.grid_15 h1 {
-    margin: 50px 0 0 0;
-    font-family: 'fanwood-webfont';
-    font-size: 30px;
-}
-.container_24 section.cv article.grid_15 .grid_4.date {
-    background: none;
-    float: right;
-    margin: 25px 0 0 0;
-}
-.container_24 section.cv article.grid_15 .grid_4.date p {
-    font-family: 'fanwood_italic-webfont';
-    font-size: 14px;
-    text-align: right;
-}
-.container_24 section.cv article.grid_15 img {
-    float: right;
-}
-.container_24 section.cv article.grid_15 p.trabajo {
-    font-family: 'fanwood_italic-webfont';
-    font-size: 26px;
-    text-align: left;
-    margin: 66px 0 0 0;
-}
-.container_24 section.cv article.grid_15 p.puesto {
-    font-family: 'fanwood_italic-webfont';
-    font-size: 16px;
-    text-align: left;
-}
-.container_24 section.cv article.grid_15 p.grid_9 {
-    font-family: 'fanwood_text-webfont';
-    text-align: justify;
-    float: right;
-    font-size: 16px;
-    margin: -37px 0 0 0;
-}
-.container_24 section.contacto {
+body .loader .loader-container {
     position: relative;
-    margin-bottom: 150px;
-    padding-bottom: 640px; 
+    background: url('../img/layout/logo-preloader.png') scroll no-repeat top center;
+    width: 267px;
+    height:  180px;
+    top: 40%;
+    margin: 0 auto;
 }
-.container_24 section.contacto form label {
-    font-family: 'fanwood_italic-webfont';
-    font-size: 26px;
+body .loader .loader-container img {
+    width: 267px;
+    height: 21px;
+    margin-top: 160px;
+}
+body section.slider {
+    position: relative;
+    width: 100%;
+}
+body section.slider .flexslider.carousel ul.slides {
+    padding: 0;
+}
+body section.slider .flexslider.carousel ul.slides li img {
+    width: 100%;
+    -moz-box-shadow: 0px 0px 4px #000000;
+    -webkit-box-shadow: 0px 0px 4px #000000;
+    box-shadow: 0px 0px 4px #000000;
+    /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+}
+body section.slider .flexslider.carousel ul.slides li p {
+    font-family: 'League Gothic';
+    font-size: 112px;
+    position: relative;
+    width: 765px;
+    top: -400px;
+    margin: 0 auto 0 auto;
+    color: #ACAC9D;
+    line-height: 92px;
+}
+body section.slider .flexslider.carousel .flex-viewport {
+    width: 100%;
+    position: fixed;
+    top: -16px;
+}
+body section.slider .flexslider.carousel .flex-direction-nav li a {
+    font-size: 0;
+    background: transparent url('../img/layout/next.png') scroll no-repeat top left;
+    width: 43px;
+    height: 45px;
+    display: block;
+}
+body section.slider .flexslider.carousel .flex-direction-nav li a.flex-prev {
+    position: absolute;
+    left: 80px;
+    top: 400px;
+}
+body section.slider .flexslider.carousel .flex-direction-nav li a.flex-next {
+    position: absolute;
+    right: 80px;
+    top: 400px;
+    background-position-x: -46px;
+}
+body .container {
+    width: 100%;
+    position: absolute;  
+    top: 0;
+}
+body .container header {
+    width: 960px;
+    position: relative;
+    margin: 0 auto;
+}
+body .container header nav {
+    background: transparent url('../img/layout/nav-bg.png') scroll top left repeat;
+    height: 100px;
+    width: 527px;
+    position: relative;
+    top: 0;
+    font-family: 'League Gothic';
+    text-transform: uppercase;
+    font-size: 20px;
+    list-style: none;
+    float: right;
+}
+body .container header nav li a {
+    color: #765F39;
+    text-decoration: none;
     float: left;
+    padding: 0 8px 0 8px;
+    display: block;
+    height: 100px;
+    margin-top: 0;
+    line-height: 163px;
+}
+body .container header nav li a:hover {
+    background: transparent url('../img/layout/nav-bg-active.png') scroll top left repeat;
+}
+body .container header .logo {
+    background: transparent url('../img/layout/logo.png') scroll top left no-repeat;
+    width: 189px;
+    height: 183px;
     position: absolute;
-    left: 0;
 }
-.container_24 section.contacto form label.e-mail {
-    top: 119px;
+body .main {
+    width: 960px;
+    position: relative;
+    margin: -260px auto 0 auto;
 }
-.container_24 section.contacto form label.asunto {
-    top: 152px;
+body .main article.x1,
+body .main article.x2 {
+    width: 340px;
+    position: relative;
+    float: left;
+    padding: 0 5px 100px; 5px;
 }
-.container_24 section.contacto form label.mensaje {
-    top: 190px;
+body .main article.x1 {
+    width: 220px;
 }
-.container_24 section.contacto form input {
+body .main article.x1 img,
+body .main article.x2 img {
+    -moz-box-shadow: 0px 0px 4px #000000;
+    -webkit-box-shadow: 0px 0px 4px #000000;
+    box-shadow: 0px 0px 4px #000000;
+    /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+}
+body .main article.x1 h1, 
+body .main article.x2 h1 {
+    font-family: 'League Gothic';
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #765F39;
+    font-weight: normal;
+}
+body .main article.x1 a, 
+body .main article.x2 a {
+    font-family: 'League Gothic';
+    font-size: 24px;
+    display: block;
+    color: #ffffff;
+    padding-left: 8px;
+    line-height: 19px;
+    text-decoration: none;
+    background: transparent url('../img/layout/ver-mas.png') scroll top left no-repeat;
+    height: 23px;
+    width: 70px;
     float: right;
-    position: absolute;
-    right: 0;
-    border: 0;
-    background: transparent url('../img/layout/input-bg.png') scroll top left no-repeat;
-    width: 349px;
-    height: 22px;
-}
-.container_24 section.contacto form input#nombre {
-    top: 93px;
-}
-.container_24 section.contacto form input#e-mail {
-    top: 124px;
-}
-.container_24 section.contacto form input#asunto {
-    top: 154px;
-}
-.container_24 section.contacto form textarea {
-    border: 0;
-    background: transparent url('../img/layout/textarea-bg.png') scroll top left no-repeat;
-    height: 203px;
-    width: 352px;
-    float: right;
-    position: absolute;
-    top: 197px;
-    right: -3px;
-}
-.container_24 section.contacto form button {
-    position: absolute;
-    top: 357px;
-    right: 6px;
-    width: 64px;
-    height: 37px;
-    background: transparent url('../img/layout/enviar-bg.png') scroll no-repeat top left;
-    border: none
-}
-.container_24 section.contacto form button:hover {
-    background-position-y: -42px;
 }
