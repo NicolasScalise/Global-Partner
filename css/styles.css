@@ -1,0 +1,184 @@
+body {
+    font-family: 'fanwood-webfont';
+    margin: 0;
+    color: #222222;
+}
+.container_24 header.grid_6 {
+    background: transparent url('../img/layout/logo-bg.png') scroll top left no-repeat;
+    height: 400px;
+    padding: 16px 0 0 0;
+    margin: 65px 30px 0 30px;
+    position: fixed;
+}
+.container_24 header.grid_6 h1 {
+    font-family: 'fanwood-webfont';
+    font-weight: normal;
+    font-size: 50px;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 55px;
+    margin: 0;
+}
+.container_24 header.grid_6 ul.nav {
+    font-family: 'fanwood_italic-webfont';
+    font-size: 25px;
+    margin: 50px 0 0 0;
+    padding: 0;
+    list-style: none;
+}
+.container_24 header.grid_6 ul.nav li a {
+    color: #222222;
+    text-decoration: none;
+}
+.container_24 section {
+    padding-bottom: 50px;
+    margin: 65px 30px 0 0;
+    width: 606px !important;
+    float: right;
+}
+.container_24 section.portfolio .grid_5 {
+    background: transparent url('../img/layout/works-bg.png') scroll top left no-repeat;
+    height: 259px;
+    width: 192px;
+    padding-bottom: 50px;
+}
+.container_24 section.portfolio .grid_5 .img-holder img {
+    padding: 7px 7px 0 7px;
+}
+.container_24 section.portfolio .grid_5 .text-holder h6 {
+    font-family: 'fanwood_italic-webfont';
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+}
+.container_24 section.portfolio .grid_5 .text-holder .funcion {
+    font-family: 'fanwood-webfont';
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+}
+.container_24 section.portfolio .grid_5 .text-holder .tecnologias {
+    font-family: 'fanwood-webfont';
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+}
+.container_24 .white.grid_24 {
+    height: 500px;
+}
+.container_24 section.cv .grid_4 {
+    background: transparent url('../img/layout/cv-download.png') scroll top left no-repeat;
+    height: 38px;
+    width: 155px;
+    float: left;
+    margin: 164px 0 0 0;
+}
+.container_24 section.cv .grid_4:hover {
+    background-position: 0 -38px;
+}
+.container_24 section.cv .grid_5 {
+    float: right;
+}
+.container_24 section.cv article.grid_15 {
+    margin-top: 50px;
+}
+.container_24 section.cv article.grid_15 h1 {
+    margin: 50px 0 0 0;
+    font-family: 'fanwood-webfont';
+    font-size: 30px;
+}
+.container_24 section.cv article.grid_15 .grid_4.date {
+    background: none;
+    float: right;
+    margin: 25px 0 0 0;
+}
+.container_24 section.cv article.grid_15 .grid_4.date p {
+    font-family: 'fanwood_italic-webfont';
+    font-size: 14px;
+    text-align: right;
+}
+.container_24 section.cv article.grid_15 img {
+    float: right;
+}
+.container_24 section.cv article.grid_15 p.trabajo {
+    font-family: 'fanwood_italic-webfont';
+    font-size: 26px;
+    text-align: left;
+    margin: 66px 0 0 0;
+}
+.container_24 section.cv article.grid_15 p.puesto {
+    font-family: 'fanwood_italic-webfont';
+    font-size: 16px;
+    text-align: left;
+}
+.container_24 section.cv article.grid_15 p.grid_9 {
+    font-family: 'fanwood_text-webfont';
+    text-align: justify;
+    float: right;
+    font-size: 16px;
+    margin: -37px 0 0 0;
+}
+.container_24 section.contacto {
+    position: relative;
+    margin-bottom: 150px;
+    padding-bottom: 640px; 
+}
+.container_24 section.contacto form label {
+    font-family: 'fanwood_italic-webfont';
+    font-size: 26px;
+    float: left;
+    position: absolute;
+    left: 0;
+}
+.container_24 section.contacto form label.e-mail {
+    top: 119px;
+}
+.container_24 section.contacto form label.asunto {
+    top: 152px;
+}
+.container_24 section.contacto form label.mensaje {
+    top: 190px;
+}
+.container_24 section.contacto form input {
+    float: right;
+    position: absolute;
+    right: 0;
+    border: 0;
+    background: transparent url('../img/layout/input-bg.png') scroll top left no-repeat;
+    width: 349px;
+    height: 22px;
+}
+.container_24 section.contacto form input#nombre {
+    top: 93px;
+}
+.container_24 section.contacto form input#e-mail {
+    top: 124px;
+}
+.container_24 section.contacto form input#asunto {
+    top: 154px;
+}
+.container_24 section.contacto form textarea {
+    border: 0;
+    background: transparent url('../img/layout/textarea-bg.png') scroll top left no-repeat;
+    height: 203px;
+    width: 352px;
+    float: right;
+    position: absolute;
+    top: 197px;
+    right: -3px;
+}
+.container_24 section.contacto form button {
+    position: absolute;
+    top: 357px;
+    right: 6px;
+    width: 64px;
+    height: 37px;
+    background: transparent url('../img/layout/enviar-bg.png') scroll no-repeat top left;
+    border: none
+}
+.container_24 section.contacto form button:hover {
+    background-position-y: -42px;
+}
