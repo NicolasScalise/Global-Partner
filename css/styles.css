@@ -247,3 +247,11 @@ body section.contacto .container .mapa .sombra-bottom  {
     background-position: 0 -7px;
     margin-top: -13px;
 }
+body .container section.quienes-somos {
+    position: relative;
+    width: 960px;
+    margin: 300px auto 0 auto;
+}
+body .container section.quienes-somos article.la-compania header {
+    background: transparent url('../img/layout/cto-bg.jpg') scroll top left repeat; 
+} 
