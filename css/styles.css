@@ -55,7 +55,7 @@ body section.slider .flexslider.carousel ul.slides li p {
     font-family: 'League Gothic';
     font-size: 112px;
     position: relative;
-    width: 765px;
+    width: 960px;
     top: -400px;
     margin: 0 auto 0 auto;
     color: #ACAC9D;
@@ -118,6 +118,7 @@ body .container header nav li a {
 }
 body .container header nav li a:hover {
     background: transparent url('../img/layout/nav-bg-active.png') scroll top left repeat;
+    color: #FFFFFF;
 }
 body .container header .logo {
     background: transparent url('../img/layout/logo.png') scroll top left no-repeat;
@@ -172,7 +173,7 @@ body .main article.x2 a {
 body section.contacto {
     background: transparent url('../img/layout/cto-bg.jpg') scroll top left repeat;
     width: 100%;
-    height: 450px;
+    height: 350px;
     position: relative;
     top: 470px;
 }
@@ -202,4 +203,47 @@ body section.contacto .container .mapa h2 {
     font-size: 24px;
     padding: 0;
     margin: 10px 0 0 0;
+}
+body footer {
+    width: 960px;
+    position: relative;
+    margin: 500px auto 0 auto;
+}
+body footer nav.footer {
+    list-style: none;
+    float: right;
+}
+body footer nav.footer li {
+    float: left;
+}
+body footer nav.footer li a {
+    float: left;
+    font-family: 'League Gothic';
+    color: #765F39;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px 50px 0;
+    font-size: 20px;
+}
+body footer .logo {
+    background: transparent url('../img/layout/logo-footer.png') scroll top left no-repeat;
+    height: 85px;
+    width: 107px;
+    float: left;
+    padding-bottom: 20px;
+}
+body section.contacto .container .mapa iframe {
+    z-index: -1000;
+}
+body section.contacto .container .mapa .sombra-top,
+body section.contacto .container .mapa .sombra-bottom {
+    background: transparent url('../img/layout/sombra.png') scroll top left no-repeat;
+    height: 7px;
+    width: 400px;
+    z-index: 6000;
+    position: absolute;
+}
+body section.contacto .container .mapa .sombra-bottom  {
+    background-position: 0 -7px;
+    margin-top: -13px;
 }
