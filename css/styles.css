@@ -126,6 +126,9 @@ body .container header .logo {
     height: 183px;
     position: absolute;
 }
+body .container header .logo.interno {
+    background: transparent url('../img/layout/logo-interno.png') scroll 22px center no-repeat;
+}
 body .main {
     width: 960px;
     position: relative;
@@ -209,6 +212,16 @@ body footer {
     position: relative;
     margin: 500px auto 0 auto;
 }
+body footer.interno {
+    margin: 100px auto 0 auto;
+}
+body .sombra-footer {
+    background: transparent url('../img/layout/sombra-footer.png') scroll top left no-repeat;
+    height: 7px;
+    width: 960px;
+    position: relative;
+    margin: 50px auto -55px auto;
+}
 body footer nav.footer {
     list-style: none;
     float: right;
@@ -247,11 +260,60 @@ body section.contacto .container .mapa .sombra-bottom  {
     background-position: 0 -7px;
     margin-top: -13px;
 }
-body .container section.quienes-somos {
+body .container section.quienes-somos,
+body .container section.mision,
+body .container section.por-que-gp {
     position: relative;
     width: 960px;
     margin: 300px auto 0 auto;
 }
-body .container section.quienes-somos article.la-compania header {
-    background: transparent url('../img/layout/cto-bg.jpg') scroll top left repeat; 
+body .container section.quienes-somos article.la-compania header h1 {
+    font-family: 'League Gothic';
+    color: #765F39;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 39px;
+    margin: 0;
 } 
+body .container section.quienes-somos article.la-compania {
+    height: 430px;
+}
+body .container section.quienes-somos article.la-compania header h2 {
+    font-family: 'League Gothic';
+    color: #ACAC9D;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 50px;
+    margin: 0;
+}
+body .container section.quienes-somos article.la-compania .container,
+body .container section.quienes-somos article.mision .container,
+body .container section.quienes-somos article.por-que-gp .container{
+    position: relative;
+}
+body .container section.quienes-somos article.la-compania .container p {
+    position: relative;
+    margin: 50px 0 0 0;
+}
+body .container .bg-oscuro {
+    background: transparent url('../img/layout/cto-bg.jpg') scroll top left repeat;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 280px;
+}
+body .container section.quienes-somos article {
+    border-bottom: 1px solid #9797A6;
+    position: relative;
+}
+body .container section.quienes-somos article.por-que-gp {
+    border: none;
+}
+body .container section.quienes-somos article.mision header h1,
+body .container section.quienes-somos article.por-que-gp header h1 {
+    font-weight: normal;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #676759;
+}
