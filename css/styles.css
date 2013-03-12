@@ -145,6 +145,7 @@ body .main article.x2 {
 body .main article.x1 {
     width: 220px;
 }
+
 body .main article.x1 img,
 body .main article.x2 img {
     -moz-box-shadow: 0px 0px 4px #000000;
