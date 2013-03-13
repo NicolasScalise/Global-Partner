@@ -3,6 +3,7 @@ body {
     padding: 0;   
     background: url('../img/layout/body-bg.jpg') scroll repeat top left;
     font-family: 'Open Sans', sans-serif;
+    color: #666659;
 }
 .hidden {
     display: none;
@@ -248,6 +249,8 @@ body footer .logo {
 body section.contacto .container .mapa iframe {
     z-index: -1000;
 }
+body .container section.contacto-s .gmaps .sombra-top,
+body .container section.contacto-s .gmaps .sombra-bottom,
 body section.contacto .container .mapa .sombra-top,
 body section.contacto .container .mapa .sombra-bottom {
     background: transparent url('../img/layout/sombra.png') scroll top left no-repeat;
@@ -256,10 +259,15 @@ body section.contacto .container .mapa .sombra-bottom {
     z-index: 6000;
     position: absolute;
 }
+body .container section.contacto-s .gmaps .sombra-bottom,
 body section.contacto .container .mapa .sombra-bottom  {
     background-position: 0 -7px;
     margin-top: -13px;
 }
+body .container section.contacto-s,
+body .container section.clientes,
+body .container section.servicios,
+body .container section.como-trabajamos,
 body .container section.quienes-somos,
 body .container section.mision,
 body .container section.por-que-gp {
@@ -316,4 +324,55 @@ body .container section.quienes-somos article.por-que-gp header h1 {
     font-size: 30px;
     text-transform: uppercase;
     color: #676759;
+}
+body .container section.contacto-s header h1,
+body .container section.clientes header h1,
+body .container section.servicios header h1,
+body .container section.como-trabajamos header h1 {
+    font-family: 'League Gothic';
+    color: #333333;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0;
+}
+body .container section.contacto-s .linea,
+body .container section.clientes .linea,
+body .container section.servicios .linea,
+body .container section.como-trabajamos .linea {
+    background: transparent url('../img/layout/linea.png') scroll top left repeat;
+    width: 960px;
+    height: 3px;
+}
+body .container section.como-trabajamos .infografia {
+    background: transparent url('../img/layout/infografia-provisoria.png') scroll top center no-repeat;
+    width: 960px;
+    height: 886px;
+    margin: 60px auto 60px auto;
+}
+body .container section.servicios .text-holder p {
+    -moz-column-count: 2;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 10px;
+    column-count: 2;
+    column-gap: 10px;
+}
+body .container section.servicios .text-holder ul {
+    list-style: disc;
+    width: 644px;
+    margin: 20px auto 20px auto;
+}
+body .container section.clientes .mapa {
+    background: transparent url('../img/layout/mapa.png') scroll top center no-repeat;
+    width: 960px;
+    height: 570px;
+    margin: 60px auto 60px auto;
+}
+body .container section.contacto-s .datos {
+    float: left;
+    margin-top: 60px;
+}
+body .container section.contacto-s .gmaps {
+    float: right;    
+    margin-top: 60px;
 }
