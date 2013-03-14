@@ -3,7 +3,7 @@ $field_name = $_POST['cf_name'];
 $field_email = $_POST['cf_email'];
 $field_message = $_POST['cf_message'];
 
-$mail_to = 'l.n.scalise@gmail.com';
+$mail_to = 'info.globalpartner@yahoo.es';
 $subject = 'Mensaje del area de contacto '.$field_name;
 
 $body_message = 'From: '.$field_name."\n";

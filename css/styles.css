@@ -377,3 +377,73 @@ body .container section.contacto-s .gmaps {
     float: right;    
     margin-top: 60px;
 }
+body .sitio-en-construccion {
+    background: transparent url('../img/layout/En-construccion.jpg') scroll top center no-repeat;
+    width: 650px;
+    height: 650px;
+    margin: 0 auto;
+}
+body .volver {
+    background: transparent url('../img/layout/volver-btn.png') scroll top left no-repeat;
+    height: 36px;
+    width: 107px;
+    display: block;
+    margin: -195px auto 0 auto;
+}
+body .container section.contacto-s form {
+    position: relative;
+    width: 400px;
+    margin: 350px 0 0 0;
+}
+body .container section.contacto-s form label {
+    float: left;
+    position: absolute;
+}
+body .container section.contacto-s form label.email {
+    margin: 40px 0 0 0;
+}
+body .container section.contacto-s form label.mensaje {
+    margin: 80px 0 0 0;
+}
+body .container section.contacto-s form textarea,
+body .container section.contacto-s form input {
+    background: transparent url('../img/layout/input-bg.png') scroll top left no-repeat;
+    height: 31px;
+    width: 240px;
+    border: 0;
+    position: absolute;
+    float: right;
+    margin-left: 156px;
+    padding: 0 30px 0 10px; 
+}
+body .container section.contacto-s form input.emails {
+    margin: 40px 0 0 156px;
+}
+body .container section.contacto-s form textarea {
+    margin: 80px 0 0 156px;
+    background: transparent url('../img/layout/textarea-bg.png') scroll top left no-repeat;
+    height: 92px;
+    width: 240px;
+}
+body .container section.contacto-s form input.cancel {
+    background: transparent url('../img/layout/cancel-bg.png') scroll top left no-repeat;
+    height: 23px;
+    width: 66px;
+    border: 0;
+    position: absolute;
+    font-size: 0;
+    float: right;
+    margin-left: 156px;
+    margin-top: 180px;
+}
+body .container section.contacto-s form input.send {
+    background: transparent url('../img/layout/enviar-bg.png') scroll top left no-repeat;
+    height: 23px;
+    width: 66px;
+    border: 0;
+    position: absolute;
+    float: right;
+    margin-left: 250px;
+    font-size: 0;
+    margin-top: 180px;
+}
